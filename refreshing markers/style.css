@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.jumbotron{
+    margin: 0;
+}
+.form-container{
+    width: 100vw;
+    min-height: 10vh;
+    background: lightblue;
+}
+
+.userInputForm{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.map-container{
+    width: 100vw;
+    height: 60vh;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    width: 80%;
+    height: 80%;
+    background: #333;
+}
